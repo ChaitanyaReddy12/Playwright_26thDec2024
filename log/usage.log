@@ -1,0 +1,16 @@
+2024-12-21 18:01:06 - [32minfo[39m: Creating configuration file...
+2024-12-21 18:01:06 - [32minfo[39m: Adding new script(s) in package.json...
+2024-12-21 18:01:06 - [32minfo[39m: Setup completed
+2024-12-21 18:02:21 - [32minfo[39m: Reading configs from C:\Users\Abcom\OneDrive\Desktop\Automation_Playwright\12thNov2024\Cucumber_Playwright\Playwright_Cucumber_Project\browserstack.yml
+2024-12-21 18:02:21 - [32minfo[39m: Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+2024-12-21 18:02:30 - [32minfo[39m: Local binary started successfully
+2024-12-21 18:02:31 - [31merror[39m: Error: C:\Users\Abcom\OneDrive\Desktop\Automation_Playwright\12thNov2024\Cucumber_Playwright\Playwright_Cucumber_Project\=.\playwright.config.ts does not exist
+    at resolveConfigFile (C:\Users\Abcom\OneDrive\Desktop\Automation_Playwright\12thNov2024\Cucumber_Playwright\Playwright_Cucumber_Project\node_modules\playwright\lib\common\configLoader.js:272:52)
+    at resolveConfigLocation (C:\Users\Abcom\OneDrive\Desktop\Automation_Playwright\12thNov2024\Cucumber_Playwright\Playwright_Cucumber_Project\node_modules\playwright\lib\common\configLoader.js:256:30)
+    at Object.owumD (C:\Users\Abcom\OneDrive\Desktop\Automation_Playwright\12thNov2024\Cucumber_Playwright\Playwright_Cucumber_Project\node_modules\browserstack-node-sdk\src\bin\playwright\command.js:2:4573)
+    at getUserPlaywrightConfig (C:\Users\Abcom\OneDrive\Desktop\Automation_Playwright\12thNov2024\Cucumber_Playwright\Playwright_Cucumber_Project\node_modules\browserstack-node-sdk\src\bin\playwright\command.js:2:5099)
+    at Object.AlvoY (C:\Users\Abcom\OneDrive\Desktop\Automation_Playwright\12thNov2024\Cucumber_Playwright\Playwright_Cucumber_Project\node_modules\browserstack-node-sdk\src\bin\playwright\command.js:2:8228)
+    at run (C:\Users\Abcom\OneDrive\Desktop\Automation_Playwright\12thNov2024\Cucumber_Playwright\Playwright_Cucumber_Project\node_modules\browserstack-node-sdk\src\bin\playwright\command.js:2:11277)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async captureError (C:\Users\Abcom\OneDrive\Desktop\Automation_Playwright\12thNov2024\Cucumber_Playwright\Playwright_Cucumber_Project\node_modules\browserstack-node-sdk\src\bin\runner.js:2:2832)
+2024-12-21 18:02:35 - [32minfo[39m: Local binary stopped

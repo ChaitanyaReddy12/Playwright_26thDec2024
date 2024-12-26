@@ -1,0 +1,28 @@
+{
+  "name": "playwright_cucumber_project",
+  "version": "1.0.0",
+  "description": "Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js test",
+    "posttest": "npx ts-node test-result/cucumber-report.html",
+    "test:failed": "cucumber-js @rerun.txt"
+  },
+  "author": "Livetech",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.1.1",
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.1",
+    "cucumber-html-reporter": "^7.2.0",
+    "dotenv": "^16.4.7",
+    "playwright": "^1.49.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "allure-cucumberjs": "^3.0.7",
+    "allure-js-commons": "^3.0.7",
+    "cucumber-playwright": "^1.2.1"
+  }
+}
